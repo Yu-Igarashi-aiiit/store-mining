@@ -3,6 +3,6 @@
 # components
 mining_test.py (var2.0) : exequtable file
 # var. history
-var_1.0 : can get noun list in specific text.
+var_1.0 : can get noun list in specific text.  
 var_2.0 : complete web scraping & feature extraction function
 
