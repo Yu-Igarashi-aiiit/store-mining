@@ -25,8 +25,8 @@ def get_keyword(description:str,reject_symbol=[("[,\.\(\)\{\}\[\]\<\>\○]"," ")
     # for token in analyzer.analyze(description):
     #     print(token.surface)
 
-#対象を示す表現をリストで取得する
-def get_attribute(word_list):
+#対象を示す特徴をリストで取得する
+def get_feature(word_list):
     list=[]
     word_list.sort()
     for i in range(0,len(word_list)):
@@ -46,5 +46,5 @@ bun=""
 for i in range(0,len(article)):
     bun += article[i].getText()
 wordlist = get_keyword(bun)
-AttributeList = get_attribute(wordlist)
-print(AttributeList)
+FeatureList = get_feature(wordlist)
+print(FeatureList)
